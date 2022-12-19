@@ -1,0 +1,363 @@
+# reference link: https://github.com/settings/installations/32352506
+
+repository:
+  allow_squash_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: true
+  delete_branch_on_merge: true
+
+Labels: define labels for Issues and Pull Requests
+labels:
+  ################## github common start ##################
+  - name: bug
+    color: '#d73a4a'
+
+  - name: docs
+    color: '#0075ca'
+
+  - name: duplicate
+    color: '#cfd3d7'
+
+  - name: enhancement
+    color: '#a2eeef'
+
+  - name: feature
+    color: '#a2eeef'
+
+  - name: good first issue
+    color: '#7057ff'
+
+  - name: helping
+    color: '#008672'
+
+  - name: invalid
+    color: '#e4e669'
+
+  - name: resource
+    color: '#FBCA04'
+
+  - name: overview
+    color: '#A7A109'
+
+  - name: wontfix
+    color: '#ffffff'
+
+  - name: question
+    color: '#d876e3'
+
+  - name: todo
+    color: '#283A6A'
+
+  - name: doing
+    color: '#283A6A'
+
+  - name: done
+    color: '#283A6A'
+
+  - name: p1
+    color: '#b60205'
+
+  - name: p2
+    color: '#b60205'
+
+  - name: p3
+    color: '#b60205'
+
+  - name: p4
+    color: '#b60205'
+  ################## github common end ##################
+  ################## custom common end ##################
+  - name: production
+    color: '#DD217F'
+
+  - name: resume
+    color: '#DD217F'
+
+  - name: blog
+    color: '#14B1FD'
+
+  - name: common
+    color: '#14B1FD'
+  - name: guideline
+    color: '#14B1FD'
+
+  - name: github
+    color: '#367F46'
+
+  - name: github:action
+    color: '#5319e7'
+  ################## custom common end ##################
+
+  ################## distribute start ##################
+  - name: dist
+    color: '#367F46'
+
+  - name: dist:componet
+    color: '#bfd4f2'
+
+  - name: dist:did
+    color: '#bfd4f2'
+
+  - name: dist:dtx
+    color: '#bfd4f2'
+
+  - name: dist:idempotent
+    color: '#bfd4f2'
+
+  - name: dist:job
+    color: '#bfd4f2'
+
+  - name: dist:lb
+    color: '#bfd4f2'
+
+  - name: dist:limit
+    color: '#bfd4f2'
+
+  - name: dist:lock
+    color: '#bfd4f2'
+
+  - name: dist:mic:bus
+    color: '#bfd4f2'
+
+  - name: dist:mic:call
+    color: '#bfd4f2'
+
+  - name: dist:mic:config
+    color: '#bfd4f2'
+
+  - name: dist:mic:fallback
+    color: '#bfd4f2'
+
+  - name: dist:mic:gateway
+    color: '#bfd4f2'
+
+  - name: dist:mic:monitor
+    color: '#bfd4f2'
+
+  - name: dist:mic:register
+    color: '#bfd4f2'
+
+  - name: dist:mic:trace
+    color: '#bfd4f2'
+
+  - name: dist:theory
+    color: '#bfd4f2'
+  ################## distribute end ##################
+
+
+
+
+
+  ################## java-se start ##################
+  - name: java-se
+    color: '#367F46'
+
+  - name: java8
+    color: '#0e8a16'
+
+  - name: juc:lock
+    color: '#0e8a16'
+
+  - name: interface
+    color: '#0e8a16'
+
+  - name: juc
+    color: '#0e8a16'
+
+  - name: jvm:classloader
+    color: '#0e8a16'
+
+  - name: jvm:gc
+    color: '#0e8a16'
+
+  - name: jvm:jmm
+    color: '#0e8a16'
+
+  - name: jvm:oom
+    color: '#0e8a16'
+
+  - name: jvm:reference
+    color: '#0e8a16'
+
+  - name: map
+    color: '#0e8a16'
+
+  - name: objects
+    color: '#0e8a16'
+
+  - name: reflect
+    color: '#0e8a16'
+
+  - name: abstract
+    color: '#0e8a16'
+
+  - name: annotation
+    color: '#0e8a16'
+
+  - name: collection
+    color: '#0e8a16'
+
+  - name: se:others
+    color: '#0e8a16'
+
+  - name: enum
+    color: '#0e8a16'
+
+  - name: exception
+    color: '#0e8a16'
+
+  - name: generic
+    color: '#0e8a16'
+
+  ################## java-se end ##################
+
+
+
+
+  ################## program start ##################
+  - name: program
+    color: '#367F46'
+
+  - name: program:coding
+    color: '#006b75'
+
+  - name: program:dp
+    color: '#006b75'
+
+  - name: program:dpp
+    color: '#006b75'
+
+  - name: program:p:quality
+    color: '#006b75'
+
+  - name: program:p:types
+    color: '#006b75'
+
+  - name: program:program
+    color: '#006b75'
+
+  - name: program:thinking
+    color: '#006b75'
+
+  - name: program:test
+    color: '#006b75'
+
+  - name: test:jmeter
+    color: '#006b75'
+
+  - name: test:resource
+    color: '#006b75'
+  ################## program end ##################
+
+
+
+
+
+
+  ################## db start ##################
+  - name: db
+    color: '#367F46'
+
+  - name: mongo
+    color: '#367F46'
+
+  - name: mysql
+    color: '#367F46'
+
+  - name: es
+    color: '#17C79C'
+  ################## db end ##################
+
+
+
+
+  ################## docker start ##################
+  - name: docker
+    color: '#367F46'
+  ################## docker end ##################
+
+
+
+
+  ################## http start ##################
+  - name: http
+    color: '#367F46'
+
+  - name: http:ip
+    color: '#4479E9'
+
+  - name: http:https
+    color: '#4479E9'
+
+  - name: http:tcp
+    color: '#4479E9'
+
+  - name: http:network
+    color: '#4479E9'
+
+  - name: http:tools
+    color: '#4479E9'
+
+  - name: http:udp
+    color: '#4479E9'
+  ################## http end ##################
+
+
+  ################## build start ##################
+  - name: build
+    color: '#367F46'
+  ################## build end ##################
+
+
+
+  ################## dp start ##################
+  - name: dp
+    color: '#367F46'
+  ################## dp end ##################
+
+
+  ################## java-ee start ##################
+  - name: java-ee
+    color: '#367F46'
+  ################## java-ee end ##################
+
+  ################## go start ##################
+  - name: go
+    color: '#367F46'
+  ################## go end ##################
+
+  ################## job start ##################
+  - name: job
+    color: '#367F46'
+  ################## job end ##################
+
+  ################## linux start ##################
+  - name: linux
+    color: '#367F46'
+  ################## linux end ##################
+
+  ################## mq start ##################
+  - name: mq
+    color: '#367F46'
+  ################## mq end ##################
+
+  ################## python start ##################
+  - name: python
+    color: '#367F46'
+  ################## python end ##################
+
+  ################## vue3 start ##################
+  - name: vue3
+    color: '#367F46'
+  ################## vue3 end ##################
+
+
+
+# Milestones: define milestones for Issues and Pull Requests
+# milestones:
+#   - title: milestone-title
+#     description: milestone-description
+#     # The state of the milestone. Either `open` or `closed`
+#     state: open
+
+
