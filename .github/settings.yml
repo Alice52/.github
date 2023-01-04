@@ -9,7 +9,7 @@ repository:
 # Labels: define labels for Issues and Pull Requests
 labels:
   ################## github common start ##################
-  - name: bug
+  - name: bug1
     color: '#d73a4a'
 
   - name: docs
