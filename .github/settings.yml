@@ -258,12 +258,26 @@ labels:
   - name: db
     color: '#367F46'
 
+  - name: db:mysql
+    color: '#367f46'
+  - name: db:pgsql
+    color: '#367f46'
+  - name: db:mongodb
+    color: '#367f46'
+  - name: db:redis
+    color: '#367f46'
+  - name: db:es
+    color: '#367f46'
+  - name: db:tidb
+    color: '#367f46'
+  - name: db:optimize
+    color: '#367f46'
+
+
   - name: mongo
     color: '#367F46'
-
   - name: mysql
     color: '#367F46'
-
   - name: es
     color: '#17C79C'
   ################## db end ##################
