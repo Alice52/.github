@@ -365,6 +365,17 @@ labels:
     color: '#367F46'
   ################## vue3 end ##################
 
+  ################## common status start ##################
+  - name: status:nomal
+    color: '#1B37E8'
+  - name: status:delay
+    color: '#1B37E8'
+  - name: status:pufoff
+    color: '#1B37E8'
+  - name: status:cancel
+    color: '#1B37E8'
+  ################## common status end ##################
+
 
 
 # Milestones: define milestones for Issues and Pull Requests
